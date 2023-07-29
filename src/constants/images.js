@@ -12,6 +12,7 @@ import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import gericht from '../assets/gericht.png';
 import jepun from '../assets/jepun.png';
+import jepunflower from '../assets/jepunflower.png';
 import knife from '../assets/knife.png';
 import laurels from '../assets/laurels.png';
 import logo from '../assets/logo.png';
@@ -20,12 +21,15 @@ import overlaybg from '../assets/overlaybg.png';
 import quote from '../assets/quote.png';
 import sign from '../assets/sign.png';
 import spoon from '../assets/spoon.svg';
+import steak from '../assets/steak.png';
 import welcome from '../assets/welcome.png';
 
 export default {
+  steak,
   bg,
   chef,
   G,
+  jepunflower,
   gallery01,
   gallery02,
   gallery03,
