@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
 
-    background: var(--color-black);
+    /* background: var(--color-black); */
     padding: 4rem 0 4rem 6rem;
 }
 
@@ -70,9 +70,9 @@
     opacity: 0.35;
 }
 
-.app__gallery-images_card:hover .gallery__image-icon {
+/* .app__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
-}
+} */
 
 .app__gallery-images_arrows {
     width: 100%;

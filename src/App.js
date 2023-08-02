@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import { Navbar } from './components';
-import { AboutUs, FindUs, Footer, Gallery, Header } from './container';
+import { AboutUs, Footer, Gallery, Header } from './container';
 
 const App = () => (
   <div>
@@ -10,7 +10,6 @@ const App = () => (
     <Header />
     <AboutUs />
     <Gallery />
-    <FindUs />
     <Footer />
   </div>
 );
