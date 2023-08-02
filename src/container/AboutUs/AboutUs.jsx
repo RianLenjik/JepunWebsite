@@ -14,7 +14,6 @@ const AboutUs = () => (
         <h1 className='headtext__cormorant'>About Us</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
         <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis fugit atque explicabo, at temporibus, rem officiis perspiciatis dolore iusto numquam repudiandae eligendi dolorem aliquid expedita illum assumenda neque debitis mollitia.</p>
-        <button type='button' className='custom__button'>Know More</button>
       </div>
 
       <div className='app__aboutus-content_knife flex__center'>
@@ -25,7 +24,6 @@ const AboutUs = () => (
         <h1 className='headtext__cormorant'>Our History</h1>
         <img src={images.spoon} alt="about_spoon" className='spoon__img'/>
         <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis fugit atque explicabo, at temporibus, rem officiis perspiciatis dolore iusto numquam repudiandae eligendi dolorem aliquid expedita illum assumenda neque debitis mollitia.</p>
-        <button type='button' className='custom__button'>Know More</button>
       </div>
     </div>
   </div>
