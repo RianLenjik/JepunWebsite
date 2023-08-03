@@ -31,7 +31,7 @@ const Footer = () => (
       </div>
     </div>
     <div className='footer__copyright'>
-      <p className='p__opensans'>2023 Jepun Sanur. All Rights reserved.</p>
+      <p className='p__opensans'>© 2023 Jepun Sanur. All Rights reserved.</p>
     </div>
   </div>
 );
