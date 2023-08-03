@@ -17,7 +17,7 @@ const Footer = () => (
       </div>
       <div className='app__footer-links_logo'>
         <img src={images.jepun} alt="footer_logo" className='footer-logo_img'/>
-        <p className='p__opensans'>"The best way to find yourself is to lose yourself in the service of others."</p>
+        <p className='p__opensans'>"You will find yourself knocking at the chef's door for more."</p>
         <img src={images.spoon} alt="spoon" className='spoon__img' style={{ marginTop: 15}}/>
         <div className='app__footer-links_icons'>
           <a href="https://www.instagram.com/jepunsanur/" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>

@@ -13,8 +13,9 @@ const Navbar = () => {
         <img src={images.jepun} alt="app logo"/>
       </div>
       <ul className='app__navbar-links' style={ { paddingLeft: '0'}}>
-        <li className='p__opensans'><a href="#about">About</a></li>
         <li className='p__opensans'><a href="https://drive.google.com/file/d/1exgNatHHQdkROLQSIGpIweSpsG67YRlI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Menu</a></li>
+        <li className='p__opensans'><a href="#about">About</a></li>
+        <li className='p__opensans'><a href="#gallery">Gallery</a></li>
         <li className='p__opensans'><a href="#footer">Contact</a></li>
       </ul>
       <div className='app__navbar-smallscreen'>
@@ -24,10 +25,10 @@ const Navbar = () => {
           <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
             <MdOutlineRestaurantMenu fontSize={27} className='overlay__close' onClick={() => setToggleMenu(false)}/>
             <ul className='app__navbar-smallscreen_links'>
-              <li className='p__opensans'><a href="#home">Home</a></li>
-              <li className='p__opensans'><a href="#about">About</a></li>
-              <li className='p__opensans'><a href="#about">Menu</a></li>
-              <li className='p__opensans'><a href="#about">Contact</a></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><a href="https://drive.google.com/file/d/1exgNatHHQdkROLQSIGpIweSpsG67YRlI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Menu</a></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><a href="#about">About</a></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><a href="#gallery">Gallery</a></li>
+              <li className='p__opensans' onClick={() => setToggleMenu(false)}><a href="#footer">Contact</a></li>
             </ul>
           </div>
         )}
