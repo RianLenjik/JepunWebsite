@@ -93,6 +93,10 @@
     .app__footer {
         padding: 0 0 2rem 0;
     }
+
+    .app__footer-links_logo p {
+        padding: 0 1rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
