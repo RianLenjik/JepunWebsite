@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jepun-sanur/static/css/main.e9d91295.css",
+    "main.css": "/jepun-sanur/static/css/main.a34555ab.css",
     "main.js": "/jepun-sanur/static/js/main.c00fe040.js",
     "static/media/meal.mp4": "/jepun-sanur/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/jepun-sanur/static/media/bg.3d421b1b5682e1b67deb.png",
@@ -41,11 +41,11 @@
     "static/media/sign.png": "/jepun-sanur/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/jepun-sanur/index.html",
     "static/media/spoon.svg": "/jepun-sanur/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.e9d91295.css.map": "/jepun-sanur/static/css/main.e9d91295.css.map",
+    "main.a34555ab.css.map": "/jepun-sanur/static/css/main.a34555ab.css.map",
     "main.c00fe040.js.map": "/jepun-sanur/static/js/main.c00fe040.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9d91295.css",
+    "static/css/main.a34555ab.css",
     "static/js/main.c00fe040.js"
   ]
 }
