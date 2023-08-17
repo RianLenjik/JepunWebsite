@@ -8,7 +8,7 @@ import ImagePopup from './ImagePopup';
 
 const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05,
 images.gallery06, images.gallery07, images.gallery08, images.gallery09, images.gallery10, images.gallery11,
-images.gallery12, images.gallery13, images.gallery14, images.gallery15, images.gallery16, images.gallery17, images.gallery18];
+images.gallery12, images.gallery13, images.gallery14, images.gallery15, images.gallery16, images.gallery17, images.gallery18, images.gallery19];
 
 const Gallery = () => {
   const scrollRef = useRef(null);
@@ -29,7 +29,13 @@ const Gallery = () => {
       <div className='app__gallery-content'>
         <SubHeading title="Memories" />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
-        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem'}}>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Quis Fugit Atque Explicabo, At Temporibus, Rem Officiis Perspiciatis Dolore Iusto Numquam Repudiandae Eligendi Dolorem Aliquid Expedita Illum Assumenda Neque Debitis Mollitia.</p>
+        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem'}}>
+          Dive into our awesome photo gallery and get a taste of the Jepun vibe! From our 
+          amazing live music to friends and workers enjoying good times, these pictures are like a sneak peek into what makes 
+          us tick. Whether you're a regular or just checking us out, our gallery's a little 
+          treasure trove of tasty memories and good vibes. Just swipe through. And if you want to 
+          see more photos, head on over to our instagram, link at the end.
+        </p>
       </div>
 
       <div className='app__gallery-images'>

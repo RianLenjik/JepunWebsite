@@ -25,9 +25,9 @@ const Footer = () => (
           <a href={`https://wa.me/${+6282145981122}`} target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
         </div>
       </div>
-      <div className='app__footer-links_work'>
+      <div className='app__footer-links_findus'>
         <h1 className='app__footer-headtext'>Find Us</h1>
-        <p className='p__opensans'>Jalan Danau Tamblingan 212, Sanur</p>
+        <a className='p__opensans' href="https://goo.gl/maps/hwgkLDuTh3KxW9wCA" target="_blank" rel="noreferrer">Jalan Danau Tamblingan 212, Sanur</a>
       </div>
     </div>
     <div className='footer__copyright'>

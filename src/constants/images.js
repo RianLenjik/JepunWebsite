@@ -24,6 +24,7 @@ import gallery15 from '../assets/gallery15.png';
 import gallery16 from '../assets/gallery16.png';
 import gallery17 from '../assets/gallery17.png';
 import gallery18 from '../assets/gallery18.png';
+import gallery19 from '../assets/gallery19.png';
 import gericht from '../assets/gericht.png';
 import jepun from '../assets/jepun.png';
 import jepunflower from '../assets/jepunflower.png';
@@ -62,6 +63,7 @@ export default {
   gallery16,
   gallery17,
   gallery18,
+  gallery19,
   knife,
   logo,
   menu,
